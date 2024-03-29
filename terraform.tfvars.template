@@ -1,0 +1,3 @@
+instance_name = "<ENTER_VALUE>"
+gcp_project   = "<ENTER_VALUE>"
+gcp_zone      = "<ENTER_VALUE>"

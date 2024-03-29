@@ -1,0 +1,19 @@
+spec:
+  containers:
+    - name: keycloak-sandbox
+      image: quay.io/keycloak/keycloak:20.0.3
+      args:
+        - start-dev
+        - --http-port 8080
+      env:
+        - name: KEYCLOAK_ADMIN
+          value: admin
+        - name: KEYCLOAK_ADMIN_PASSWORD
+          value: admin
+      securityContext:
+        privileged: true
+      stdin: false
+      tty: false
+  restartPolicy: Always
+# This container declaration format is not public API and may change without notice. Please
+# use gcloud command-line tool or Google Cloud Console to run Containers on Google Compute Engine.
