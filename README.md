@@ -1,4 +1,4 @@
-# Run a Keycloak Dev Container on Google Cloud Compute Engine
+# Run a Keycloak Container on Google Cloud Compute Engine
 
 **TLDR**: Run `terraform apply` and visit your Keycloak server on: `http://<EXTERNAL_IP>:8080`
 
